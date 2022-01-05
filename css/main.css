@@ -159,7 +159,7 @@ p {
 @media screen and (min-width: 768px) {
   .nav__item {
     display: inline-block;
-    width: 23%;
+    width: 18%;
   }
 }
 .nav__link {
@@ -347,6 +347,33 @@ p {
 }
 .social__item--in:hover {
   background-position: -155px -43px;
+}
+
+.image-galery {
+  border-radius: 0.6rem;
+  box-shadow: 0px 0px 15px gray;
+}
+.image-galery:hover {
+  box-shadow: 0px 0px 25px gray;
+}
+.image-galery__image {
+  width: 100%;
+  height: 22rem;
+  display: block;
+  border-top-left-radius: 0.6rem;
+  border-top-right-radius: 0.6rem;
+}
+@media screen and (min-width: 768px) {
+  .image-galery__image {
+    height: 16rem;
+  }
+}
+.image-galery__text {
+  text-align: center;
+  padding: 2rem;
+  font-size: 1.6rem;
+  cursor: pointer;
+  font-family: Roboto, sans-serif;
 }
 
 .site-body__social {
