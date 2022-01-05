@@ -4,6 +4,12 @@
     &__item {
         font-size: 3.2rem;
         @include medium {
+            font-size: 2.8rem;
+            display: inline-block;
+            width: 18%;
+        }
+        @include large {
+            font-size: 3.2rem;
             display: inline-block;
             width: 18%;
         }

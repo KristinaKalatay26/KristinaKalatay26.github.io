@@ -1,4 +1,5 @@
 @use '../01-settings/' as *;
+@use '../02-tools/' as *;
 
 .site-header {
     height: 100vh;
@@ -15,6 +16,12 @@
         width: 60%;
         text-align: center;
         margin-top: $grid-base * 3;
+        @include medium {
+            width: 70%;
+        }
+        @include large {
+            width: 60%;
+        }
     }
     
     &__h1 {
